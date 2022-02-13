@@ -4,6 +4,11 @@
  * @return {number}
  */
 var strStr = function(haystack, needle) {
-  // TODO
-  console.log('TODO')
+  if (!needle) return 0
+  for (let i = 0; i < haystack.length; i++) {
+    if (haystack.slice(i, i + needle.length) === needle) return i
+  }
+  return -1
 };
+
+// 2022.02.12 Done
