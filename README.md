@@ -12,13 +12,14 @@ since 2021.10.10 / Benben
 
 ### Easy
 
-- 1.Two Sum
-- 9.Palindrome Number
-- 13.Roman to Integer
-- 14.Longest Common Prefix
-- 20.Valid Parentheses
-- 21.Merge Two Sorted Lists
-- 26.Remove Duplicates from Sorted Array
-- 28.Implement strStr()
-- 35.Search Insert Position 
-- 53.Maximum Subarray
+- 0001.Two Sum
+- 0009.Palindrome Number
+- 0013.Roman to Integer
+- 0014.Longest Common Prefix
+- 0020.Valid Parentheses
+- 0021.Merge Two Sorted Lists
+- 0026.Remove Duplicates from Sorted Array
+- 0028.Implement strStr()
+- 0035.Search Insert Position
+- 0053.Maximum SubArray (FIXME)
+- 0509.Fibonacci Number
