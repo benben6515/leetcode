@@ -2,6 +2,8 @@
 
 https://leetcode.com/z2266109/
 
+![Leetcode Stats](https://leetcode.card.workers.dev/?username=z2266109&theme=unicorn&extension=activity)
+
 > record personal practice for sharping programming skills and fun!
 
 current purpose: finish `Easy`
@@ -26,4 +28,5 @@ since 2021.10.10 / Benben
 
 ### Medium
 
+- 0046.Permutations
 - 0322.Coin Change

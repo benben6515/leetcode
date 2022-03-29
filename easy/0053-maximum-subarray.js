@@ -18,7 +18,7 @@ const maxSum = (nums, size) => {
   for (let i = 0; i < size; i++) {
     maxValue += nums[i]
   }
-  
+
   let tempValue = maxValue
   for (let j = size; j < nums.length; j++) {
     tempValue = tempValue + nums[j] - nums[j - size]
@@ -29,4 +29,4 @@ const maxSum = (nums, size) => {
   return maxValue
 }
 
-// TO FIX 
+// TO FIX
