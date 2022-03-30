@@ -6,7 +6,7 @@ https://leetcode.com/z2266109/
 
 > record personal practice for sharping programming skills and fun!
 
-current purpose: finish `Easy`
+happy coding!
 
 since 2021.10.10 / Benben
 
@@ -26,6 +26,7 @@ since 2021.10.10 / Benben
 - 0053.Maximum SubArray (FIXME)
 - 0509.Fibonacci Number
 - 0905.Sort Array By Parity
+- 1694.Reformat Phone Number
 
 ### Medium
 
