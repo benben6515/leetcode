@@ -25,6 +25,7 @@ since 2021.10.10 / Benben
 - 0035.Search Insert Position
 - 0053.Maximum SubArray (FIXME)
 - 0509.Fibonacci Number
+- 0704.Binary Search
 - 0905.Sort Array By Parity
 - 1694.Reformat Phone Number
 
