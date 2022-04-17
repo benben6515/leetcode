@@ -23,5 +23,6 @@ var search = function(nums, target) {
   return -1
 };
 
+// 2022/04/11 done.
 // Runtime: 60 ms, faster than 97.36% of JavaScript online submissions for Binary Search.
 // Memory Usage: 44.9 MB, less than 83.19% of JavaScript online submissions for Binary Search.

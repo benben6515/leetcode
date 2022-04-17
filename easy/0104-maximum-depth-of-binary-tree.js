@@ -15,15 +15,15 @@ var maxDepth = function(root) {
   let maxDepth = 0
   let depth = 0
 
-  var travel = (root) => {
+  var traverse = (root) => {
     if (root === null) return
     depth++
     if (maxDepth < depth) maxDepth = depth
-    travel(root.left)
-    travel(root.right)
+    traverse(root.left)
+    traverse(root.right)
     depth--
   }
-  travel(root)
+  traverse(root)
 
   return maxDepth
 };
