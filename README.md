@@ -21,10 +21,14 @@ since 2021.10.10 / Benben
 - 0020.Valid Parentheses
 - 0021.Merge Two Sorted Lists
 - 0026.Remove Duplicates from Sorted Array
+- 0027.Remove Element
 - 0028.Implement strStr()
 - 0035.Search Insert Position
 - 0053.Maximum SubArray (FIXME)
+- 0104.Maximum Depth of Binary Tree
+- 0144.Binary Tree PreOrder Traversal
 - 0509.Fibonacci Number
+- 0543.Diameter of Binary Tree
 - 0704.Binary Search
 - 0905.Sort Array By Parity
 - 1694.Reformat Phone Number
