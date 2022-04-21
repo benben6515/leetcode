@@ -26,6 +26,7 @@ since 2021.10.10 / Benben
 - 0035.Search Insert Position
 - 0053.Maximum SubArray (FIXME)
 - 0104.Maximum Depth of Binary Tree
+- 0111.Minimum Depth of Binary Tree
 - 0144.Binary Tree PreOrder Traversal
 - 0509.Fibonacci Number
 - 0543.Diameter of Binary Tree
@@ -37,3 +38,7 @@ since 2021.10.10 / Benben
 
 - 0046.Permutations
 - 0322.Coin Change
+
+### Hard
+
+- 0051.N Queens
