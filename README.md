@@ -14,6 +14,9 @@ since 2021.10.10 / Benben
 
 ### Easy
 
+<details>
+  <summary>show all easy problems</summary>
+
 - 0001.Two Sum
 - 0009.Palindrome Number
 - 0013.Roman to Integer
@@ -34,11 +37,23 @@ since 2021.10.10 / Benben
 - 0905.Sort Array By Parity
 - 1694.Reformat Phone Number
 
+</details>
+
 ### Medium
+
+<details>
+  <summary>show all medium problems</summary>
 
 - 0046.Permutations
 - 0322.Coin Change
 
+</details>
+
 ### Hard
 
+<details>
+  <summary>show all hard problems</summary>
+
 - 0051.N Queens
+
+</details>
