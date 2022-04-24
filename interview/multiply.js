@@ -1,7 +1,11 @@
 function multiply(...args){
-  (args.length > 0) ? x = args.reduce((acc, cur) => acc * cur) : x = 1
+  let x = (args.length > 0)
+    ? args.reduce((acc, cur) => acc * cur)
+    : 1
   return helper = (...args) => {
-    (args.length > 0) ? y = args.reduce((acc, cur) => acc * cur) : y = args[0]
+    let y = (args.length > 0)
+      ? args.reduce((acc, cur) => acc * cur)
+      : args[0]
     x = y ? x * y : x
     return y ? helper : x
   }
