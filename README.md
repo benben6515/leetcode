@@ -32,6 +32,7 @@ since 2021.10.10 / Benben
 - 0111.Minimum Depth of Binary Tree
 - 0144.Binary Tree PreOrder Traversal
 - 0206.Reverse Linked List
+- 0226.Invert Binary Tree
 - 0509.Fibonacci Number
 - 0543.Diameter of Binary Tree
 - 0704.Binary Search
