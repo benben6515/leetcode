@@ -60,6 +60,7 @@ since 2021.10.10 / Benben
 <details>
   <summary>show all hard problems</summary>
 
+- 0025.Reverse Nodes in k-Group
 - 0051.N Queens
 
 </details>
