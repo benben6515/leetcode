@@ -49,6 +49,7 @@ since 2021.10.10 / Benben
 
 - 0046.Permutations
 - 0092.Reverse Linked List II
+- 0114.Flatten Binary Tree to Linked List
 - 0116.Populating Next Right Pointers in Each Node
 - 0322.Coin Change
 
