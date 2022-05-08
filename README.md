@@ -4,11 +4,12 @@ https://leetcode.com/z2266109/
 
 ![Leetcode Stats](https://leetcode.card.workers.dev/?username=z2266109&theme=unicorn&extension=activity)
 
-> record personal practice for sharping programming skills and fun!
+> This repo record personal practice for sharping programming skills and fun!
 
 happy coding!
 
 since 2021.10.10 / Benben
+> who is on the way to Senior/Mastery
 
 ## Done
 
