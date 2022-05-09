@@ -16,8 +16,6 @@ var maxSubArray = function(nums) {
   }
 
   return res
-};
+}
 
-// 2022/05/09 done.
-// Runtime: 109 ms, faster than 48.46% of JavaScript online submissions for Maximum Subarray.
-// Memory Usage: 50.4 MB, less than 48.90% of JavaScript online submissions for Maximum Subarray.
+// leetcode 0053

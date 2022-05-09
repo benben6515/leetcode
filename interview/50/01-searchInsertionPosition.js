@@ -27,6 +27,5 @@ var searchInsert = function(nums, target) {
   return mid
 };
 
-// 2022.02.13 done
-// Runtime: 56 ms, faster than 99.29% of JavaScript online submissions for Search Insert Position.
-// Memory Usage: 42.4 MB, less than 8.36% of JavaScript online submissions for Search Insert Position.
+
+// leetcode 0035

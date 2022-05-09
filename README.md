@@ -28,7 +28,7 @@ since 2021.10.10 / Benben
 - 0027.Remove Element
 - 0028.Implement strStr()
 - 0035.Search Insert Position
-- 0053.Maximum SubArray (FIXME)
+- 0053.Maximum SubArray
 - 0104.Maximum Depth of Binary Tree
 - 0111.Minimum Depth of Binary Tree
 - 0144.Binary Tree PreOrder Traversal
