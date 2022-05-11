@@ -5,19 +5,18 @@
 var maxSubArray = function(nums) {
   if (nums.length === 0) return nums
 
-  let cur = nums[0]
-  let curMax = 0
-  let res = cur
+  let cur = 0
+  let max = -Infinity
 
-  for (let i = 1; i < nums.length; i++) {
-    curMax = Math.max(nums[i], cur + nums[i])
-    cur = curMax
-    res = Math.max(res, curMax)
+  for (let i = 0; i < nums.length; i++) {
+    cur = Math.max(nums[i], cur + nums[i])
+    max = Math.max(cur, max)
   }
 
-  return res
+  return max
 };
 
+
 // 2022/05/09 done.
-// Runtime: 109 ms, faster than 48.46% of JavaScript online submissions for Maximum Subarray.
-// Memory Usage: 50.4 MB, less than 48.90% of JavaScript online submissions for Maximum Subarray.
+// Runtime: 95 ms, faster than 68.36% of JavaScript online submissions for Maximum Subarray.
+// Memory Usage: 50.2 MB, less than 73.28% of JavaScript online submissions for Maximum Subarray.
