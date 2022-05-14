@@ -20,12 +20,15 @@ from easy -> medium -> hard
 - hard
 
 ### Sliding Window
-- easy // TODO
+- easy
+  - 0121
 - medium
 - hard
 
 ### Stack
-- easy
+- easy // TODO
+  - 0020
+  - 0115
 - medium
 - hard
 
