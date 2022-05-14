@@ -1,4 +1,4 @@
-# Neetcode 150 lists
+# Neetcode 150 list
 
 ref: https://neetcode.io/
 

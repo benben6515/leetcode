@@ -31,6 +31,7 @@ since 2021.10.10 / Benben
 - 0053.Maximum SubArray
 - 0104.Maximum Depth of Binary Tree
 - 0111.Minimum Depth of Binary Tree
+- 0121.Best Time to Buy and Sell Stock
 - 0125.Valid Palindrome
 - 0144.Binary Tree PreOrder Traversal
 - 0206.Reverse Linked List
