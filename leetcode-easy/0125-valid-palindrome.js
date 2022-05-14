@@ -20,5 +20,5 @@ var isPalindrome = function(s) {
 };
 
 // 2022/05/11 done.
-// Runtime: 110 ms, faster than 36.67% of JavaScript online submissions for Valid Palindrome.
-// Memory Usage: 44.2 MB, less than 82.99% of JavaScript online submissions for Valid Palindrome.
+// Runtime: 148 ms, faster than 11.27% of JavaScript online submissions for Valid Palindrome.
+// Memory Usage: 44 MB, less than 93.33% of JavaScript online submissions for Valid Palindrome.
