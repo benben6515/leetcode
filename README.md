@@ -66,6 +66,7 @@ since 2021.10.10 / Benben
 <details>
   <summary>show all hard problems</summary>
 
+- 0004.Median of Two Sorted Arrays
 - 0023.Merge k Sorted Lists
 - 0025.Reverse Nodes in k-Group
 - 0051.N Queens
