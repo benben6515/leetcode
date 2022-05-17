@@ -30,6 +30,7 @@ since 2021.10.10 / Benben
 - 0035.Search Insert Position
 - 0053.Maximum SubArray
 - 0104.Maximum Depth of Binary Tree
+- 0110.Balanced Binary Tree
 - 0111.Minimum Depth of Binary Tree
 - 0121.Best Time to Buy and Sell Stock
 - 0125.Valid Palindrome
