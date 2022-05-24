@@ -41,6 +41,7 @@ since 2021.10.10 / Benben
 - 0217.Contains Duplicate
 - 0226.Invert Binary Tree
 - 0234.Palindrome Linked List
+- 0235.Lowest Common Ancestor of a Binary Search Tree
 - 0242.Valid Anagram
 - 0509.Fibonacci Number
 - 0543.Diameter of Binary Tree
