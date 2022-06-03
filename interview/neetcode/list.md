@@ -26,7 +26,7 @@ from easy -> medium -> hard
 - hard
 
 ### Stack
-- easy // TODO
+- easy // TO UPDATE
   - 0020
   - 0115
 - medium
@@ -53,7 +53,9 @@ from easy -> medium -> hard
 - hard
 
 ### Heap / Priority Queue
-- easy
+- easy // TODO
+  - 703
+  - 1046
 - medium
 - hard
 

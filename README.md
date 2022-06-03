@@ -49,6 +49,7 @@ since 2021.10.10 / Benben
 - 0703.Kth Largest Element in a Stream
 - 0704.Binary Search
 - 0905.Sort Array By Parity
+- 1046.Last Stone Weight
 - 1694.Reformat Phone Number
 
 </details>
