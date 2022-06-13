@@ -30,6 +30,7 @@ since 2021.10.10 / Benben
 - 0035.Search Insert Position
 - 0053.Maximum SubArray
 - 0058.Length of Last Word
+- 0067.Add Binary
 - 0104.Maximum Depth of Binary Tree
 - 0100.Same Tree
 - 0110.Balanced Binary Tree
