@@ -1,6 +1,6 @@
 # Leet code
 
-https://leetcode.com/z2266109/
+<https://leetcode.com/z2266109/>
 
 ![Leetcode Stats](https://leetcode.card.workers.dev/?username=z2266109&theme=unicorn&extension=activity)
 
@@ -50,6 +50,7 @@ since 2021.10.10 / Benben
 - 0572.Subtree of Another Tree
 - 0703.Kth Largest Element in a Stream
 - 0704.Binary Search
+- 0764.Min Cost Climbing Stairs
 - 0905.Sort Array By Parity
 - 1046.Last Stone Weight
 - 1694.Reformat Phone Number
