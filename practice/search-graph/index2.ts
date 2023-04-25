@@ -14,13 +14,14 @@ async function helper2(currentArray: number[], visited: Set<number>) {
   const list = dataArray.reduce((acc, cur) => {
     return [...acc, ...cur]
   }, [])
-  const uniquList: Set<number> = new Set(list)
-  const filteredList = Array.from(uniquList).filter((e: number) => !visited.has(e))
+  const uniqList: Set<number> = new Set(list)
+
+  const filteredList = Array.from(uniqList).filter((e: number) => !visited.has(e))
   if (!filteredList || !filteredList.length) return
-  helper2(filteredList, visited)
   filteredList.forEach((e) => visited.add(e))
   console.log(visited)
   console.log('=======')
+  helper2(filteredList, visited)
 }
 
 searchGraph2(1)
