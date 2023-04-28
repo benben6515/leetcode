@@ -5,6 +5,7 @@ const app = express()
 
 type NodMap = { [key: string]: number[] }
 
+// create graph
 const nodeMap: NodMap = {
   '1': [2, 3, 4],
   '2': [1, 5],

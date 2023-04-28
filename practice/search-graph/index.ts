@@ -16,8 +16,8 @@ async function helper(current: number, visited: Set<number>) {
     if (!visited.has(e)) {
       visited.add(e)
       console.log(visited)
-      helper(e, visited)
-      console.log('=======')
+      console.log('api call =======')
+      await helper(e, visited)
     }
   })
 }
