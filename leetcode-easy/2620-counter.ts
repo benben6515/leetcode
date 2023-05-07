@@ -4,6 +4,8 @@ function createCounter(n: number): () => number {
   }
 }
 
+export { createCounter }
+
 /**
  * const counter = createCounter(10)
  * counter() // 10
