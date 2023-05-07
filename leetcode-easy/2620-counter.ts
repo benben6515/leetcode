@@ -11,7 +11,7 @@ function createCounter(n: number): () => number {
  * counter() // 12
  */
 
-// 2023.05.07 Done.
+// 2023/05/07 done.
 // Runtime 66 ms
 // Beats 29.11%
 // Memory 43.2 MB
