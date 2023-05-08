@@ -30,3 +30,7 @@ function merge(left: number[], right: number[]): number[] {
 
   return result
 }
+
+// test cases
+const arr = [3.14, 5, -2, 1, 10]
+console.log(mergeSort(arr))

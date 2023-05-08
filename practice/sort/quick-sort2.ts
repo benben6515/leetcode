@@ -1,11 +1,11 @@
-function quickSort2(array: number[], left: number = 0, right: number = array.length - 1) {
+export function quickSort(array: number[], left: number = 0, right: number = array.length - 1) {
   if (left >= right) return
-  const index = partition2(array, left, right)
-  quickSort2(array, left, index - 1)
-  quickSort2(array, index + 1, right)
+  const index = partition(array, left, right)
+  quickSort(array, left, index - 1)
+  quickSort(array, index + 1, right)
 }
 
-function partition2(array: number[], left: number, right: number) {
+function partition(array: number[], left: number, right: number) {
   const pValue = array[right]
   let pIndex = left
   for (let i = left; i < right; i++) {
@@ -22,6 +22,7 @@ function partition2(array: number[], left: number, right: number) {
   return pIndex
 }
 
-const arr2 = [3.14, 5, -2, 1, 10]
-quickSort2(arr2)
-console.log(arr2)
+// test case
+const arr = [3.14, 5, -2, 1, 10]
+quickSort(arr)
+console.log(arr)

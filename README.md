@@ -8,7 +8,7 @@
 
 Always be coding and happy coding!
 
-since 2021.10.10 / @Benben (who is on the way to Senior/Mastery)
+since 2021.10.10 @Benben (who is on the way to Senior/Mastery)
 
 ## Done
 

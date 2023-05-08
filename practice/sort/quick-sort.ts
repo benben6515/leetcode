@@ -1,4 +1,4 @@
-function quickSort(array: number[]): number[] {
+export function quickSort(array: number[]): number[] {
   if (array.length <= 1) return array
 
   const pivot = array[0]
@@ -13,5 +13,6 @@ function quickSort(array: number[]): number[] {
   return [...quickSort(lesser), pivot, ...quickSort(greater)]
 }
 
+// test cases
 const arr = [3.14, 5, -2, 1, 10]
 console.log(quickSort(arr))
