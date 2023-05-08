@@ -1,15 +1,14 @@
-# Leet code
+# Algorithms and Leetcode
 
 <https://leetcode.com/z2266109/>
 
 ![Leetcode Stats](https://leetcode.card.workers.dev/?username=z2266109&theme=unicorn&extension=activity)
 
-> This repo record personal practice for sharping programming skills and fun!
+> This repo recorded personal practice for sharpening skills of programming and for fun!
 
-happy coding!
+Always be coding and happy coding!
 
-since 2021.10.10 / Benben
-> who is on the way to Senior/Mastery
+since 2021.10.10 / @Benben (who is on the way to Senior/Mastery)
 
 ## Done
 
@@ -54,6 +53,10 @@ since 2021.10.10 / Benben
 - 0905.Sort Array By Parity
 - 1046.Last Stone Weight
 - 1694.Reformat Phone Number
+- 2620.Counter
+- 2635.Apply Transform Over Each Element in Array
+- 2665.Counter II
+- 2667.Create Hello World Function
 
 </details>
 
@@ -82,3 +85,7 @@ since 2021.10.10 / Benben
 - 0051.N Queens
 
 </details>
+
+And this repo for my friends, mentees as well.
+
+Let's be better and stronger.
