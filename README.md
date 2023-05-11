@@ -54,6 +54,7 @@ since 2021.10.10 @Benben (who is on the way to Senior/Mastery)
 - 1046.Last Stone Weight
 - 1694.Reformat Phone Number
 - 2620.Counter
+- 2626.Array Reduce Transformation
 - 2635.Apply Transform Over Each Element in Array
 - 2665.Counter II
 - 2667.Create Hello World Function
