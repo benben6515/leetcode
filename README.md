@@ -58,6 +58,7 @@ since 2021.10.10 @Benben (who is on the way to Senior/Mastery)
 - 2629.Function Composition
 - 2635.Apply Transform Over Each Element in Array
 - 2665.Counter II
+- 2666.Allow One Function Call
 - 2667.Create Hello World Function
 
 </details>
