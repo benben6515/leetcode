@@ -77,6 +77,7 @@ since 2021.10.10 @Benben (who is on the way to Senior/Mastery)
 - 0116.Populating Next Right Pointers in Each Node
 - 0322.Coin Change
 - 2622.Cache With Time Limit
+- 2627.Debounce
 - 2623.Memoize
 - 2632.Curry
 - 2636.Promise Pool
