@@ -81,6 +81,7 @@ since 2021.10.10 @Benben (who is on the way to Senior/Mastery)
 - 2623.Memoize
 - 2632.Curry
 - 2636.Promise Pool
+- 2676.Throttle
 
 </details>
 
