@@ -79,6 +79,7 @@ since 2021.10.10 @Benben (who is on the way to Senior/Mastery)
 - 2622.Cache With Time Limit
 - 2627.Debounce
 - 2623.Memoize
+- 2628.JSON Deep Equal
 - 2632.Curry
 - 2636.Promise Pool
 - 2676.Throttle
