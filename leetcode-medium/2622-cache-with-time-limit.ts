@@ -4,7 +4,7 @@ type Item = {
   timeout: ReturnType<typeof setTimeout> | null
 }
 type Table = {
-  [key: string]: Item
+  [key: string]: Item | null
 }
 
 class TimeLimitedCache {
@@ -17,9 +17,9 @@ class TimeLimitedCache {
   }
 
   set(key: number, value: number, duration: number): boolean {
-    clearTimeout(this.table[key]?.timeout)
+    clearTimeout(this.table[key]?.timeout as ReturnType<typeof setTimeout>)
     const timeout = setInterval(() => {
-      clearTimeout(this.table[key].timeout)
+      clearTimeout(this.table[key]?.timeout as ReturnType<typeof setTimeout>)
       this.table[key] = null
       this.currentCount--
     }, duration)
@@ -33,7 +33,7 @@ class TimeLimitedCache {
   }
 
   get(key: number): number {
-    if (this.table[key]) return this.table[key].value
+    if (this.table[key]) return (this.table[key] as Item).value
     return -1
   }
 
