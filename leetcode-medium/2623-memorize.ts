@@ -2,13 +2,7 @@ type Fn = (...params: any) => any
 
 function memoize(fn: Fn): Fn {
   const object = {}
-  return function(...args) {
-    const key = args.join(',')
-    if (object[key] === undefined) {
-      object[key] = fn(...args)
-    }
-    return object[key]
-  }
+  return (...args) => (object[args.join(',')] ??= fn(...args))
 }
 
 /**
