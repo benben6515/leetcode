@@ -1,7 +1,7 @@
 function curry(fn: Function): Function {
-  return function curried(...args: any[]) {
-    return args.length < fn.length ? (...newArgs: any[]) => curried(...args, ...newArgs) : fn(...args)
-  }
+  const curried = (...args: any[]) =>
+    args.length < fn.length ? (...newArgs: any[]) => curried(...args, ...newArgs) : fn(...args)
+  return curried
 }
 
 /**
