@@ -1,6 +1,6 @@
 export function countSquares(points: number[][]) {
   // Write our code here.
-  const set = new Set([...points.map((e) => e.join(","))])
+  const set = new Set([...points.map((e) => e.join(','))])
   let result = 0
 
   for (let i = 0; i < points.length; i++) {
@@ -21,7 +21,7 @@ export function countSquares(points: number[][]) {
       const pointD = [midX - yDistanceFromMid, midY + xDistanceFromMid]
 
       // check two points
-      if (set.has(pointC.join(",")) && set.has(pointD.join(","))) {
+      if (set.has(pointC.join(',')) && set.has(pointD.join(','))) {
         result++
       }
     }
