@@ -53,10 +53,11 @@ class DoubleLinkedList {
   }
 
   print() {
-    const curr = this.head.next
+    let curr = this.head.next
     let str = ''
     while (curr) {
-      str += `${curr.value} ->`
+      str = `${str}${curr.value} ->`
+      curr = curr.next
     }
     console.log(str)
   }
