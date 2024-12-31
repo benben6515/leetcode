@@ -16,3 +16,7 @@ function countStudents(students: number[], sandwiches: number[]): number {
   }
   return res
 }
+
+// 2024.12.30 done.
+// Runtime 1 ms Beats 38.76%
+// Memory 51.46 MB Beats 76.74%

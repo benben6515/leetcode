@@ -2,7 +2,7 @@
 
 <https://leetcode.com/z2266109/>
 
-![Leetcode Stats](https://leetcode.card.workers.dev/?username=z2266109&theme=unicorn&extension=activity)
+[![Leetcode Stats](https://leetcard.jacoblin.cool/z2266109)](https://leetcode.com/z2266109)
 
 > This repo recorded personal practice for sharpening skills of programming and for fun!
 
