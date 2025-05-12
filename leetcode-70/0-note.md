@@ -33,8 +33,8 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 
 1:38:36 SECTION - BIT MANIPULATION: Single Number
 
-1:44:09 ✅ SECTION - DYNAMIC PROGRAMMING: Coin Change (#0322)
-1:56:11 Climbing Stairs
+1:44:09 ✅ SECTION - DYNAMIC PROGRAMMING: Coin Change (l-0322)
+1:56:11 ✅ Climbing Stairs (l-0070)
 1:59:33 Maximum Subarray
 2:02:39 Counting Bits
 2:11:28 Range Sum Query - Immutable

@@ -1,6 +1,6 @@
 const coins = [1, 3, 4, 5]
 
-function changeCoins(coins, target) {
+function changeCoins(coins: number[], target: number) {
   const dp = new Array(target + 1).fill(target + 1)
   dp[0] = 0
   for (let i = 1; i < target + 1; i++) {
