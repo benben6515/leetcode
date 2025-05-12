@@ -6,12 +6,12 @@
 
 let memo = []
 
-var coinChange = function(coins, amount) {
+var coinChange = function (coins, amount) {
   // init memo with `value -2` and `length amount + 1`
   memo = Array(amount + 1).fill(-2)
 
   return dp(coins, amount)
-};
+}
 
 function dp(coins, amount) {
   if (amount === 0) return 0
@@ -24,7 +24,7 @@ function dp(coins, amount) {
     if (curNumber === -1) continue
     res = Math.min(res, curNumber + 1)
   }
-  memo[amount] = (res === Infinity) ? -1 : res
+  memo[amount] = res === Infinity ? -1 : res
   return memo[amount]
 }
 
