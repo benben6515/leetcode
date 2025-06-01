@@ -30,6 +30,5 @@ console.log(arrayOfArrays([1, [2, [[3], 4], 5], 6]))
 
 Another though:
 
-- I have no idea
-  1. me too!
-  2. you too?
+- Use `Array.isArray()` to check element is a array or not
+- If the element of input array is a array, call yourself again
