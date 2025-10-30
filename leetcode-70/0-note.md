@@ -4,6 +4,11 @@
 
 Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 
+| Emoji | Meaning       |
+| ----- | ------------- |
+| ✅    | Done.         |
+| ⚠️    | Need practice |
+
 📕 Chapters:
 
 0:00:00 Intro
@@ -12,9 +17,9 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 0:11:57 Problem Solving Techniques
 
 0:15:04 SECTION - ARRAYS: Contains Duplicate
-0:16:51 ✅ Missing Number (l-0268)
+0:16:51 ✅ Missing Number (l-0268, `easy`)
 0:19:36 Note: Sorting, Dictionary, Lambdas
-0:20:09 Find All Numbers Disappeared in an Array
+0:20:09 ✅ Find All Numbers Disappeared in an Array (l-0448, `easy`)
 0:23:19 Two Sum
 0:28:32 Note: Java vs Python - Final Value After Operations
 0:30:08 How Many Numbers Are Smaller Than the Current Number
@@ -33,8 +38,8 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 
 1:38:36 SECTION - BIT MANIPULATION: Single Number
 
-1:44:09 ✅ SECTION - DYNAMIC PROGRAMMING: Coin Change (l-0322)
-1:56:11 ✅ Climbing Stairs (l-0070)
+1:44:09 ✅ SECTION - DYNAMIC PROGRAMMING: Coin Change (l-0322, `medium`)
+1:56:11 ✅ Climbing Stairs (l-0070, `easy`)
 1:59:33 Maximum Subarray
 2:02:39 Counting Bits
 2:11:28 Range Sum Query - Immutable

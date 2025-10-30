@@ -4,6 +4,6 @@ export function missingNumber(nums: number[]): number {
   return average - currentSum
 }
 
-// 2025.10.29
+// 2025/10/29
 // Runtime 0 ms Beats 100.00%
 // Memory 57.73 MB Beats 77.41%
