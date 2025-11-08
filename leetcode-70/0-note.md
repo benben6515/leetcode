@@ -29,7 +29,7 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 - `0:30:08` ✅ [1365. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) (`easy`)
 - `0:34:29` ✅ [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) (`easy`)
 - `0:39:12` ✅ [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) (`medium`)
-- `0:44:40` [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) (`medium`)
+- `0:44:40` ✅ [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) (`medium`)
 
 ### SECTION - ARRAYS TWO POINTERS:
 
