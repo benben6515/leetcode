@@ -33,7 +33,7 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 
 ### SECTION - ARRAYS TWO POINTERS:
 
-- `0:54:50` [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (`easy`)
+- `0:54:50` ✅ [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (`easy`)
 - `1:00:42` [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) (`easy`)
 - `1:12:20` [15. 3Sum](https://leetcode.com/problems/3sum/) (`medium`)
 - `1:21:06` [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/) (`medium`)
