@@ -46,7 +46,7 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 
 ### SECTION - BIT MANIPULATION:
 
-- `1:38:36` [136. Single Number](https://leetcode.com/problems/single-number/) (`easy`)
+- `1:38:36` ✅ [136. Single Number](https://leetcode.com/problems/single-number/) (`easy`)
 
 ### SECTION - DYNAMIC PROGRAMMING:
 
