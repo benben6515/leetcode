@@ -41,7 +41,7 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 ### SECTION - ARRAYS SLIDING WINDOW:
 
 - `1:25:38` ✅ [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) (`easy`)
-- `1:29:57` [1200. Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) (`easy`)
+- `1:29:57` ✅ [1200. Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) (`easy`)
 - `1:33:19` [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) (`medium`)
 
 ### SECTION - BIT MANIPULATION:
