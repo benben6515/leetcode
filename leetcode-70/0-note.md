@@ -52,7 +52,7 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 
 - `1:44:09` ✅ [322. Coin Change](https://leetcode.com/problems/coin-change/) (`medium`)
 - `1:56:11` ✅ [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (`easy`)
-- `1:59:33` [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (`medium`)
+- `1:59:33` ✅ [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (`medium`)
 - `2:02:39` [338. Counting Bits](https://leetcode.com/problems/counting-bits/) (`easy`)
 - `2:11:28` [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) (`easy`)
 
