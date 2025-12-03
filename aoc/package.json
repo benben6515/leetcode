@@ -1,0 +1,13 @@
+{
+  "name": "aoc-2025",
+  "version": "1.0.0",
+  "description": "Advent of Code 2025 solutions",
+  "type": "module",
+  "scripts": {
+    "repl": "node --experimental-repl-await repl.js",
+    "day": "node --experimental-repl-await"
+  },
+  "keywords": ["aoc", "advent-of-code"],
+  "author": "",
+  "license": "MIT"
+}
