@@ -20,5 +20,5 @@ function part2(lines) {
   return 0
 }
 
-console.log('Part1 : ', part1(lines))
+console.log('Part1: ', part1(lines))
 console.log('Part2: ', part2(lines))
