@@ -54,7 +54,7 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 - `1:56:11` ✅ [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (`easy`)
 - `1:59:33` ✅ [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (`medium`)
 - `2:02:39` ✅ [338. Counting Bits](https://leetcode.com/problems/counting-bits/) (`easy`)
-- `2:11:28` [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) (`easy`)
+- `2:11:28` ✅ [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) (`easy`)
 
 ### SECTION - BACKTRACKING:
 
