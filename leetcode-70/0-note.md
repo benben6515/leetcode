@@ -60,7 +60,7 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 
 - `2:14:50` ✅ [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) (`medium`)
 - `2:20:43` ✅ [78. Subsets](https://leetcode.com/problems/subsets/) (`medium`)
-- `2:28:22` [77. Combinations](https://leetcode.com/problems/combinations/) (`medium`)
+- `2:28:22` ✅ [77. Combinations](https://leetcode.com/problems/combinations/) (`medium`)
 - `2:34:42` [46. Permutations](https://leetcode.com/problems/permutations/) (`medium`)
 
 ### SECTION - LINKED LISTS:
