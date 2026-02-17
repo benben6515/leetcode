@@ -18,7 +18,7 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 
 ---
 
-### SECTION - ARRAYS:
+### SECTION - ARRAYS
 
 - `0:15:04` ✅ [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (`easy`)
 - `0:16:51` ✅ [268. Missing Number](https://leetcode.com/problems/missing-number/) (`easy`)
@@ -31,24 +31,24 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 - `0:39:12` ✅ [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) (`medium`)
 - `0:44:40` ✅ [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) (`medium`)
 
-### SECTION - ARRAYS TWO POINTERS:
+### SECTION - ARRAYS TWO POINTERS
 
 - `0:54:50` ✅ [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (`easy`)
 - `1:00:42` ✅ [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) (`easy`)
 - `1:12:20 ✅` [15. 3Sum](https://leetcode.com/problems/3sum/) (`medium`)
 - `1:21:06` ✅ [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/) (`medium`)
 
-### SECTION - ARRAYS SLIDING WINDOW:
+### SECTION - ARRAYS SLIDING WINDOW
 
 - `1:25:38` ✅ [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) (`easy`)
 - `1:29:57` ✅ [1200. Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) (`easy`)
 - `1:33:19` ✅ [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) (`medium`)
 
-### SECTION - BIT MANIPULATION:
+### SECTION - BIT MANIPULATION
 
 - `1:38:36` ✅ [136. Single Number](https://leetcode.com/problems/single-number/) (`easy`)
 
-### SECTION - DYNAMIC PROGRAMMING:
+### SECTION - DYNAMIC PROGRAMMING
 
 - `1:44:09` ✅ [322. Coin Change](https://leetcode.com/problems/coin-change/) (`medium`)
 - `1:56:11` ✅ [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (`easy`)
@@ -56,14 +56,14 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 - `2:02:39` ✅ [338. Counting Bits](https://leetcode.com/problems/counting-bits/) (`easy`)
 - `2:11:28` ✅ [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) (`easy`)
 
-### SECTION - BACKTRACKING:
+### SECTION - BACKTRACKING ⚠️
 
 - `2:14:50` ✅ [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) (`medium`)
 - `2:20:43` ✅ [78. Subsets](https://leetcode.com/problems/subsets/) (`medium`)
 - `2:28:22` ✅ [77. Combinations](https://leetcode.com/problems/combinations/) (`medium`)
-- `2:34:42` [46. Permutations](https://leetcode.com/problems/permutations/) (`medium`)
+- `2:34:42` ✅ [46. Permutations](https://leetcode.com/problems/permutations/) (`medium`)
 
-### SECTION - LINKED LISTS:
+### SECTION - LINKED LISTS
 
 - `2:41:54` [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (`easy`)
 - `2:43:58` [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (`easy`)
@@ -73,20 +73,20 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 - `3:01:25` [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) (`easy`)
 - `3:06:01` [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) (`easy`)
 
-### SECTION - STACKS:
+### SECTION - STACKS
 
 - `3:10:11` [155. Min Stack](https://leetcode.com/problems/min-stack/) (`medium`)
 - `3:15:22` [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) (`easy`)
 - `3:19:53` [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) (`medium`)
 - `3:25:53` Stack Sorting
 
-### SECTION - QUEUES:
+### SECTION - QUEUES
 
 - `3:31:03` [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) (`easy`)
 - `3:34:35` [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) (`easy`)
 - `3:38:05` Reverse the First K Elements of a Queue
 
-### SECTION - BINARY TREES:
+### SECTION - BINARY TREES
 
 - `3:40:45` [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) (`easy`)
 - `3:45:14` [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) (`easy`)
@@ -99,7 +99,7 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 - `4:07:19` [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (`easy`)
 - `4:09:18` [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) (`medium`)
 
-### SECTION - BINARY SEARCH TREES:
+### SECTION - BINARY SEARCH TREES
 
 - `4:17:25` [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) (`easy`)
 - `4:19:11` [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) (`medium`)
@@ -111,14 +111,14 @@ Ref: `https://www.youtube.com/watch?v=lvO88XxNAzs`
 - `4:35:52` [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) (`medium`)
 - `4:41:27` [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) (`medium`)
 
-### SECTION - HEAPS:
+### SECTION - HEAPS
 
 - `4:43:37` [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) (`medium`)
 - `4:52:44` [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) (`medium`)
 - `4:56:30` [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) (`medium`)
 - `4:59:06` [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) (`medium`)
 
-### SECTION - GRAPHS:
+### SECTION - GRAPHS
 
 - `5:05:05` Breadth and Depth First Traversal
 - `5:06:13` [133. Clone Graph](https://leetcode.com/problems/clone-graph/) (`medium`)
