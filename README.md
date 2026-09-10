@@ -99,6 +99,12 @@ since 2021.10.10 @Benben (who is on the way to Senior/Mastery)
 
 </details>
 
+## Topics
+
+- [leetgpu](./leetgpu/) — GPU programming (CUDA) practice notes & roadmap @[leetgpu.com](https://leetgpu.com/)
+  - [x] C++ basics: pointers, heap, vector, struct — [notes](./leetgpu/cpp-basics.md)・[concepts](./leetgpu/cpp-concepts.md)・[exercises](./leetgpu/exercises/)・solutions in `practices/`
+  - [ ] CUDA basics: first kernel (vector add) — next up
+
 ---
 
 And this repo for my friends, mentees as well.
