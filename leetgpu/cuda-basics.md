@@ -67,23 +67,67 @@ kernel 本體看起來像 for 迴圈的一次 iteration — 因為「迴圈」�
 
 ## 3. Thread index — 核心中的核心
 
-每個 thread 靠這條公式算出「我是誰」：
+### 3a. 階層：Grid → Block → Thread
+
+```
+Grid（整個發射，一次 kernel 呼叫）
+ └── Block（包工隊）× blocksPerGrid
+      └── Thread（工人）× threadsPerBlock
+```
+
+`<<<8, 256>>>` 白話：開 8 支包工隊，每隊 256 工人 → 總共 2048 個 thread。
+
+### 3b. 四個內建變數 — 硬體幫你掛好的名牌
+
+`blockIdx` / `blockDim` 這些**不用宣告、不用傳參**，是 CUDA 內建變數：
+硬體在發射瞬間，根據 `<<<blocks, threads>>>` 裡的數字，幫每個 thread 填好唯讀的編號/總量。
+
+以 `<<<8, 256>>>` 為例：
+
+| 變數 | 語意 | 每個 thread 看到的值 |
+|---|---|---|
+| `threadIdx.x` | 我是幾號（index） | 0 ~ 255（每人不同） |
+| `blockIdx.x` | 我這隊是第幾隊（index） | 0 ~ 7（同隊相同） |
+| `blockDim.x` | 每隊有幾人（Dim） | 256（大家相同） |
+| `gridDim.x` | 總共幾隊（Dim） | 8（大家相同） |
+
+**命名規則**：`Idx` 結尾 = 問「我是誰」（每人不同）；`Dim` 結尾 = dimension size，問「總共有多少」（大家相同）。
+`threadIdx.x` 永遠 < `blockDim.x`，就像陣列 index 永遠 < 長度（`p < end` 同款概念）。
+
+### 3c. 全域 index 公式
 
 ```cuda
 int i = blockIdx.x * blockDim.x + threadIdx.x;
-//       └─ 第幾區 ─┘└─ 每區幾人 ─┘  └─ 區內第幾人 ─┘
+//       └第幾隊┘×└每隊人數┘ + └隊內編號┘
 ```
 
-| 變數 | 意思 |
-|---|---|
-| `threadIdx.x` | 區內編號（0 ~ blockDim.x-1） |
-| `blockIdx.x` | 第幾個 block |
-| `blockDim.x` | 每個 block 有幾個 thread |
-
-例：`<<<8, 128>>>` → thread `(block 3, threadIdx 5)` 的全域 index = 3×128+5 = **389**。
+= 「前面所有隊伍的總人數」+「隊內位置」= 全球流水編號。
+例：block 3, thread 5 → 3×128+5 = **389**（`<<<8,128>>>` 時）。
 
 **為什麼要 `if (i < n)`**：threads 以 block 為單位發放，N 不整除 blockDim 時會多發 —
 多出來的要用 if 擋掉，不然越界寫入（= 你在 C++ 練過的 UB，這次炸的是 GPU）。
+
+### 3d. 為什麼分兩層？
+
+硬體就是這樣長的：
+
+1. **Block 是資源分配單位** — 同一 block 的 thread 塞進同一顆 SM（GPU 核心群），共用一份 shared memory（包工隊共用的工具間，tiled matmul 的關鍵）
+2. **Block 之間不能溝通** — 各隊幹各隊的，GPU 才能把幾十萬 thread 隨意排程
+
+### 3e. 三維：`.x` 是哪來的
+
+每層都可開到 3 維，矩陣題用二維：
+
+```cuda
+dim3 grid(8, 4);     // 8×4 = 32 個 block
+dim3 block(16, 16);  // 每個 block 256 個 thread
+kernel<<<grid, block>>>(...);
+// gridDim=(8,4), blockDim=(16,16)
+// row = blockIdx.y * blockDim.y + threadIdx.y;
+// col = blockIdx.x * blockDim.x + threadIdx.x;  ← 同一條公式寫兩次
+```
+
+一維題只用 `.x`（y、z 自動 = 1），`<<<8, 256>>>` 其實是 `<<<dim3(8), dim3(256)>>>` 的縮寫。
 
 ## 4. 記憶體 API 對照（你已經都會了）
 

@@ -27,7 +27,8 @@ Triton 值得之後學（ML kernel 當紅），但刷這站用 CUDA。
 ## 進度
 
 - [x] C++ 基本功：指標 / heap / vector / struct — `exercises/` 五題全過（解答在 `practices/`）
-- [ ] 1. 入門：vector add ← **現在這裡**
+- [x] 1. 入門：vector add ✅ — [解法](./solutions/01-vector-addition.cu)
+- [ ] 1b. element-wise：ReLU / Reverse Array ← **現在這裡**
 - [ ] 2. 記憶體模式：reduction
 - [ ] 3. coalesced memory access
 - [ ] 4. shared memory：tiled matmul
@@ -51,4 +52,5 @@ Triton 值得之後學（ML kernel 當紅），但刷這站用 CUDA。
 - [cpp-basics.md](./cpp-basics.md) — CUDA 夠用的 C++ 快速入門
 - [cpp-concepts.md](./cpp-concepts.md) — 練習踩坑整理：stack/heap、傳參、UB、常見錯誤速查
 - [cuda-basics.md](./cuda-basics.md) — 第一個 kernel（vector add）、thread index、六步流程
+- [solutions/](./solutions/) — AC 解法存檔（含踩坑記錄）
 - [exercises/](./exercises/) — C++ 練習題（含 README 說明）
