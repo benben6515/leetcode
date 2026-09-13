@@ -30,7 +30,7 @@ export function spiralOrder(matrix: number[][]): number[] {
   }
 
   return visited.map((str) => {
-    const [x, y] = str.split(',')
+    const [x, y] = str.split(',').map(Number)
     return matrix[x][y]
   })
 }
